@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KOÇAK BAKLAVA / BAKLAVALAR</title>
+    <link rel="stylesheet" href="style3.css">,
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="proje.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header1">
+            <div class="basliksol"  style="float: left" width:"50%">
+                <img class="phone" src="img/phone.jpg" alt="">
+            
+                <span>Müşteri ve Sipariş Hattı</span>
+                <strong>0 342 321 05 19/20 </strong>
+            </div>
+           
+            
+             
+            <div class="basliksag" style="float: right" width:"50%">
+                <form action=" POST">
+                 <input type="text" name="search" placeholder="Search..">
+                         
+                 <button type="button" class="btn btn-primary" style="background-color:#D9AF62;" border-color:"#D9AF62;">ÜYE OL</button>
+                 <button type="button" class="btn btn-primary" style="background-color:#D9AF62;" border-color:"#D9AF62;">GİRİŞ YAP</input>
+                    </form>
+            </div>
+        </div>
+        <br>
+      
+        <div class="logo">
+             <a href="//www.kocakbaklava.com.tr">
+             <img src="//www.kocakbaklava.com.tr/UserFiles/Fotograflar/93-logo-png-logo.png" width="290" height="130" alt="Koçak Baklava">
+                 </a>
+            </div>
+                       
+         </header>
+               <nav>
+             
+                <div>
+            <ul>
+
+                <li style="float:left"><a class="aktif" href="#baklava">BAKLAVALAR</a></li>
+                <li style="float:left"><a href="#kurabiye ve ezmeler">KURABİYE VE EZMELER</a></li>
+                <li style="float:left"><a href="#tuzlu fıstık">TUZLU FISTIK</a></li>
+                
+                <li style="float:right"><a href=" ">ÜRETİMİMİZ</a></li>
+                <li style="float:right"><a href="#basında biz">BASINDA BİZ</a></li>
+                <li style="float:right"><a href="#nerdeyiz">NEREDEYİZ?</a></li>
+            </ul> 
+                
+            </div> 
+             
+             <div class="main-nav"></div>
+             <br>
+             <p class="paragraf1"> <a href="#">ANAYSAYFA </a> <a href="#"> / BAŞLIK </a></p>
+             <br>
+             <div class="list-options">
+                <div class="container">
+                    <div class="view-style">
+                        <span id="one" data-col="col-xs-12 col-sm-6 col-md-4 col-lg-4"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+                        <span id="two" data-col="col-xs-6 col-sm-6 col-md-4 col-lg-4"><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+                        <span id="three" data-col="col-xs-6 col-sm-4 col-md-4 col-lg-4"><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+                        <span id="four" data-col="col-xs-6 col-sm-4 col-md-3 col-lg-3" class="active"><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+                    </div>
+                    <div class="order-by">
+                        <label>SIRALA :</label>
+                        <select id="OrderBySelect" class="form-control">
+                            <option value="">Akıllı Sıralama</option>
+                            <option id="OrderByEnYeni" value="OrderByEnYeni" data-value="0">En Yeniler</option>
+                            
+                            <option id="OrderBySatis" value="OrderBySatis" data-value="0">Çok Satanlar</option>
+                            
+                            
+                            <option id="OrderByFiyatArtan" value="OrderByFiyatArtan" data-value="0">Artan Fiyat</option>
+                            <option id="OrderByFiyatAzalan" value="OrderByFiyatAzalan" data-value="0">Azalan Fiyat</option>
+                            
+                            
+                            <option id="OrderByIndirim" value="OrderByIndirim" data-value="0">İndirimdekiler</option>
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <table  border="0" cellpadding="15">
+                <tr>
+                    <td class="c4"><img id="test" src="img/bulbulyuvasi.jpg"  alt=""><br>Bülbül Yuvası 
+                        <div class="price"></div><b>150.00 TL</b></td>
+                    <td class="c4" ><img id="test1" src="img/lead.jpg" alt="" ><br>Yaprak Şöbiyet 
+                        <div class="price"></div><b>170.00 TL</b> </td>
+                    <td class="c4" ><img id="test2"src="img/full.jpg" alt=""><br>Dolama
+                        <div class="price"></div><b>170.00 TL</b></td>
+                </tr>
+               
+                <tr>
+                    <td class="c4"><img  id="test3" src="img/söbiyet.jpg" alt=""><br>Özel Şöbiyet
+                        <div class="price"></div><b>150.00 TL</b></td>
+                    <td class="c4" ><img  id="test4"src="img/havucdilimi.jpg" alt=""><br>Havuç Dilimi
+                        <div class="price"></div><b>125.00 TL</b></td>
+                    <td class="c4"><img id="test5"src="img/kurubaklava.jpg" alt=""><br>Kuru Baklava
+                        <div class="price"></div><b>110.00 TL</b></td>
+                </tr>
+                <tr>
+                    <td class="c4" ><img id="test6"src="img/cevizli.jpg" alt=""><br>Cevizli Baklava
+                        <div class="price"></div><b>90.00 TL</b></td>
+                    <td class="c4"><img id="test7"src="img/özelkare.jpg" alt=""><br>Özel Kare Baklava
+                        <div class="price"></div><b>130.00 TL</b></td>
+                    <td  class="c4" ><img id="test8"src="img/baklava.jpg" alt=""><br>Baklava
+                        <div class="price"></div><b>110.00 TL</b></td>
+                </tr>
+                <tr>
+                    <td class="c4"><img id="test9"src="img/midye.jpg" alt=""><br>Midye Baklava
+                        <div class="price"></div><b>160.00 TL</b></td>
+                    <td class="c4" ><img id="test10"src="img/kadayıf.jpg" alt=""><br>Burmalı Kadayıf
+                        <div class="price"></div><b>130.00 TL</b></td>
+                    <td class="c4" ><img id="test11"src="img/karısık.jpg" alt=""><br>Özel Karışık
+                        <div class="price"></div><b>156.00 TL</b></td>
+                </tr>
+               
+            </table>
+
+
+
+            </nav>
+            <br>
+            <br>
+            <br>
+            <footer>
+                    <div id="footerContainer">
+                    <div class="footerBox">
+                     <h1>KOÇAK BAKLAVA</h1>
+                     <br>
+                     <img width="200"height="100"src="img/93-logo-png-logo.png" alt="">
+                     <br>
+                     <h3>Koçak Baklava Sosyal Medya</h3>
+                     <br>
+                     <a href=""><img width="50px" height="50px" src="img/facebook.jpg" alt=""></a>
+                     <a href=""><img width="50px" height="50px" src="img/twitter.jpg" alt=""></a>
+                     <a href=""><img width="50px" height="50px" src="img/instagram.jpg" alt=""></a>
+                     <a href=""><img width="50px" height="50px" src="img/youtube.jpg" alt=""></a>
+                     
+                   </div>
+               <div class="footerBox">
+                   <h2>BİZE ULAŞIN</h2>
+                   <br>
+                   <p><span style="font-weight:bold">MERKEZ:</span><br>Mücahitler Mah. Abdulkadir Behçet Cad. No:44 Merkez Şehitkamil-Gaziantep</p>
+                   <br>
+                   <p><span style="font-weight:bold">TELEFON:</span><br>(0342)321 05 19 / 20 -(0342) 322 21 31<br>(0533) 771 80 00 </p>
+                   <br>
+                   <p><span style="font-weight:bold">ŞUBE:</span><br>Gazi  Muhtar Paşa Bulv. No:29/G Şehitkamil-Gaziantep</p>
+                   <br>
+                   <p><span style="font-weight:bold">TELEFON:</span><br>(0342) 215 00 12 / 13 <br>(0532) 685 94 36</p>
+                   
+               </div>
+          
+                <div class="footerBox">
+                  <br>
+                  <h2 style="font-family:Georgia, 'Times New Roman', Times, serif">Koçak Baklava E-Bülten</h2>
+                  <p style="font-family:Georgia, 'Times New Roman', Times, serif">Resturantlarımızın indirimi ve etkinliklerinden haberdar olmak istiyorsanız email adresinizi girmeniz yeterli olacaktır.</p>
+                  <form>
+                      <input type="email" name="email" placeholder="Email adresinizi giriniz:" required><br><br>
+                      <input  type="submit"  value="ABONE OL">
+                  </form>
+              </div>
+             <br>
+             <br>
+          
+             <table border="0" cellpadding="15" widht="400" height="200" >
+              
+              <tr >
+                  <td class="c1"><a  style="color:black"href="#">Mal Alım İadesi</a></td>
+                  <td class="c1"><a style="color:black"href="#">Basında Biz</a></td>
+                  <td class="c1"> <a style="color:black" href="#">Şifre Hatırlama </a></td>
+                  <td  class="c1"><a  style="color:black" href="#">Teslimat & İade</a></td>
+              </tr> 
+               <tr>
+                   <td class="c1"><a style="color:black"href="#">Kurumsal</a></td>
+                   <td class="c1"> <a style="color:black"href="#" >Bilgilerimiz</a></td>
+                   <td class="c1"><a style="color:black"href="#">Yeni Üyelik</a></td>
+                   <td class="c1"><a style="color:black"href="#">Yardım</a></td>
+          
+          
+               </tr>
+          
+              <tr>
+                <td class="c1"><a style="color:black" href="#">Üretimimiz</a></td>
+                <td class="c1"><a style="color:black" href="#">İletişim</a> </td>
+                <td class="c1"><a style="color:black" href="#">Gizlilik & Üyelik</a></td>
+          
+          
+                 </tr>
+             <tr>
+              <td class="c1"><a style="color:black" href="#">Mağaza</a></td>
+              <td class="c1"><a style="color:black" href="#">Sipariş Takibi </a></td>
+              </tr>
+          
+             </table>
+               
+                 
+          
+                    <div style="clear:left"></div>
+          
+          
+                    </div>
+          
+                </footer>
+              
+              
+
+                </body>
+                </html>
